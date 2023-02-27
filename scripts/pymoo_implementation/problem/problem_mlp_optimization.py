@@ -27,7 +27,7 @@ def create_MLP_from_parameter(parameter : np.array(int), metric : string = 'accu
             activation=activation_function)
     ])
 
-    if (len(num_neurons_per_layer_without_zeros != 0)):
+    if (len(num_neurons_per_layer_without_zeros) != 0):
         for layer in range(1, len(num_neurons_per_layer_without_zeros)):
             num_neurons = int(num_neurons_per_layer_without_zeros[layer])
             cnn_model.add(

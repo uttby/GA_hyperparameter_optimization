@@ -43,7 +43,7 @@ def define_dataset_constants(saveset_name : string, dataset_number : int):
     pickle_name_result = PATH + f"pickled_data/res-{PC_NAME}-{saveset_name}-{POPULATION_SIZE}pop-{MAX_HIDDENLAYERS}ly-{today}.p"
     pickle_name_pop    = PATH + f"pickled_data/pop-{PC_NAME}-{saveset_name}-{POPULATION_SIZE}pop-{MAX_HIDDENLAYERS}ly-{today}.p"
     video_name         = PATH + f"videos/{PC_NAME}-{saveset_name}-{POPULATION_SIZE}pop-{MAX_HIDDENLAYERS}ly-{today}.mp4"
-
+    
     data = original_data.iloc[:
     DATA_COUNT
     , 9:]
